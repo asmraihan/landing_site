@@ -1,5 +1,4 @@
 import React from 'react';
-import Typed from 'react-typed';
 const Hero = () => {
     return (
         
@@ -11,13 +10,13 @@ const Hero = () => {
                     <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
                         {/* Fixed text */}
                     </p>
-                    <Typed
+                    {/* <Typed
                         className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 '
                         strings={['Developed with React', 'Designed with Tailwind']}
                         typeSpeed={120}
                         backSpeed={140}
                         loop
-                    />
+                    /> */}
                 </div>
                 <p className='md:text-2xl text-xl py-2 font-bold text-gray-300'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita maiores, est nesciunt aut ut molestiae!.</p>
                 <div className="mt-8 flex flex-wrap justify-center gap-4">
